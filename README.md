@@ -22,7 +22,7 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 Program to implement the the Logistic Regression Using Gradient Descent.
 Developed by: VEMBARASI.A.R
 RegisterNumber:  212224220120
-```
+
 import pandas as pd
 import numpy as np
 
@@ -95,7 +95,7 @@ xnew = np.array([[0, 87, 0, 95, 0, 2, 78, 2, 0, 0, 1, 0]])  # Example input
 xnew = scaler.transform(xnew)  # Apply same scaling as training data
 y_prednew = predict(theta, xnew)
 print("\nPredicted Result:", y_prednew)
-```
+
 */
 ```
 
